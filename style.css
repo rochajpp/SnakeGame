@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas{
+    background-color: black;
+}
+
+.game-over{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.134);
+    color: white;
+}
+
+button{
+    padding: 1rem 4rem;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.637);
+}
