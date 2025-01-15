@@ -122,8 +122,7 @@ function draw(){
 }
 
 function reset(){
-    gameover.style.display = "none";
-    location.href = "/";
+    location.reload();
 }
 
 run();
